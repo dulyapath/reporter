@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<node>
+  <server>43.240.113.43</server>
+  <user>postgres</user>
+  <password>sml</password>
+  <port>5432</port>
+</node>

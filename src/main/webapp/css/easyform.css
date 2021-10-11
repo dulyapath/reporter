@@ -1,0 +1,37 @@
+.es-table .es-sort, .es-table .es-sort-asc, .es-table .es-sort-desc{
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none;
+    position: relative;
+    cursor: pointer;
+}
+
+.es-table .es-sort:after, .es-table .es-sort-asc:after, .es-table .es-sort-desc:after{
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+    display: block;
+    font-family: 'FontAwesome';
+}
+
+.es-table .es-sort:after{
+   content: "\f0dc";
+   opacity: 0.5;
+}
+
+.es-table .es-sort-asc:after{
+    content: "\f0de";
+    opacity: 0.8;
+}
+
+.es-table .es-sort-desc:after{
+    content: "\f0dd";
+    opacity: 0.8;
+}
+
+.pagination.bootpag{
+    margin-top: 0;
+}

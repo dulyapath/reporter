@@ -1,0 +1,39 @@
+.select2-container--default .select2-results__option[aria-disabled=true]{
+    background-color: #afc3d8;
+    color: #fff;
+}
+
+.required{
+    color: red;
+}
+
+.que-highlight{
+    background-color: yellow;
+    min-height: 25px;
+}
+
+#showAr{
+    margin-top: 10px;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#showAr li{
+    padding: 5px 3px;
+}
+
+#showAr li:hover{
+    cursor: move;
+    border: 1px dashed #eb9316;
+}
+
+#showAr  li  .area-remove{
+    color: red;
+    padding: 3px 7px;
+    opacity: 0.6;
+}
+
+#showAr li .area-remove:hover{
+    cursor: pointer;
+    opacity: 1;
+}
